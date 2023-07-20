@@ -1,0 +1,33 @@
+body{
+    background-color: #000;
+}
+@keyframes shadow{
+    0%
+    {
+
+        box-shadow: 0px 0px 30px 20px rgb(189, 20, 255);
+    }
+
+    100%
+    {
+        box-shadow: 0px 0px 30px 20px rgb(255, 217, 0);
+    }
+}
+.card-border{
+    border:solid coral 2px;
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 20px red;
+    animation-name: shadow;
+    animation: shadow alternate infinite 50px;
+}
+.card{
+    backdrop-filter: blur(20px);
+}
+/* .card-border:hover{
+    box-shadow: 0px 0px 30px 20px pink;
+} */
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+    padding:0 50px;
+}

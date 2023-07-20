@@ -1,0 +1,12 @@
+body{
+    background: rgb(24, 24, 24);
+}
+
+.navbar{
+    backdrop-filter:blur(20px) ;
+    
+}
+
+a{
+    display: inline;
+}
